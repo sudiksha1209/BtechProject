@@ -293,16 +293,3 @@ fine_tuning_model.compile(optimizer='adam', loss='sparse_categorical_crossentrop
 
 # Summary of the model
 fine_tuning_model.summary()
-
-
-# In[35]:
-
-
-print(tf.__version__)
-
-
-# In[ ]:
-
-
-
-
